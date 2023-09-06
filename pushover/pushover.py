@@ -1,5 +1,11 @@
 #!/usr/bin/env python3
 
+# <hint>
+# This script is a template for sending messages to Pushover.
+# everything that was set as a content in the notification configuration will be sent to Pushover.
+# read more about Pushover user key: https://pushover.net/api#identifiers
+# </hint>
+
 import json
 import http.client
 import urllib.parse

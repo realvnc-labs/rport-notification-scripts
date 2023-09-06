@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# <hint>
+# This script is a template for sending messages to Slack.
+# everything that was set as a content in the notification configuration will be sent as a slack message.
+# please set recipients to your Slack webhook URL. ("https://hooks.slack.com/services/...")
+# read more about Slack webhook URL: https://api.slack.com/messaging/webhooks
+# </hint>
+
 import json
 import http.client
 import urllib.parse

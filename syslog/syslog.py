@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+# <hint>
+# This script is a template for sending messages to syslog.
+# everything that was set as a content in the notification configuration will be sent to syslog.
+# </hint>
+
 import sys
 import json
 import syslog

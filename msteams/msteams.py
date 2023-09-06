@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
 
+# <hint>
+# This script is a template for sending messages to Microsoft Teams.
+# everything that was set as a content in the notification configuration will be sent to Microsoft Teams.
+# please set recipients to your Teams webhook URL. ("https://webhook.office.com/...")
+# read more about Teams webhook URL: https://docs.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connectors/how-to/add-incoming-webhook
+# </hint>
+
 import json
 import http.client
 import urllib.parse
